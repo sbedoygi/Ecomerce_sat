@@ -6,9 +6,10 @@ namespace Ecommerce_SAt.DAL.Entities
     {
         [Key]
         public virtual Guid Id { get; set; }
-
-        public virtual string CreatedDate { get; set; }
-        public virtual string ModifiedDate { get; set;}
+        [Display(Name = "Fecha De creacion")]
+        public virtual string? CreatedDate { get; set; }
+        [Display(Name = "Facha de Modificacion")]
+        public virtual string? ModifiedDate { get; set;}
 
 
     }
