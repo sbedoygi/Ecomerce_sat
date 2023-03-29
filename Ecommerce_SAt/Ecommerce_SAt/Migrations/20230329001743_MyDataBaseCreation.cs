@@ -9,7 +9,7 @@ namespace Ecommerce_SAt.Migrations
     public partial class MyDataBaseCreation : Migration
     {
         /// <inheritdoc />
-        protected override void Up(MigrationBuilder migrationBuilder)
+        protected override void Up(MigrationBuilder migrationBuilder)// se creo  las tablas migradas
         {
             migrationBuilder.CreateTable(
                 name: "countries",
