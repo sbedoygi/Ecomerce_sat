@@ -17,5 +17,5 @@ namespace Ecommerce_SAt.DAL
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Country>().HasIndex(c => c.Name).IsUnique();
         }
-
+    }
 }

@@ -4,7 +4,7 @@ namespace Ecommerce_SAt.DAL.Entities
 {
     public class Entity
     {
-        [key]
+        [Key]
         public virtual Guid Id { get; set; }
 
         public virtual string CreatedDate { get; set; }
